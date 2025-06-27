@@ -1,9 +1,7 @@
-
-Online Voting System Readme
-🗳️ Online Voting System
+##🗳️ Online Voting System
 A secure and scalable Online Voting System built with Node.js, Express.js, and MongoDB. The platform allows authenticated users to vote in elections while maintaining data integrity and enforcing strict role-based access control.
 
-🚀 Features
+##🚀 Features
 ✅ User Authentication – Secure login/signup with JWT tokens
 
 👥 Role-Based Access Control – Admin, Voter, and Election Manager roles
@@ -16,7 +14,7 @@ A secure and scalable Online Voting System built with Node.js, Express.js, and M
 
 🛡️ Data Validation – Input validation and MongoDB schema enforcement
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Technology	Description
 Node.js	JavaScript runtime
 Express.js	Web framework
@@ -24,7 +22,7 @@ MongoDB	NoSQL database
 Mongoose	ODM for MongoDB
 JWT	Authentication
 Postman	API testing tool
-📁 Project Structure
+##📁 Project Structure
 .
 ├── models/
     ├── Candidate.js
@@ -38,14 +36,14 @@ Postman	API testing tool
 ├── .env
 ├── server.js
 └── README.md
-🔐 User Roles
+##🔐 User Roles
 Admin: Create/manage elections and users
 
 Voter: Can vote in active elections
 
 Manager: Monitor voting and access limited admin features
 
-🔄 API Endpoints
+##🔄 API Endpoints
 Method	Endpoint	Role	Description
 POST	/api/register	Public	User registration
 POST	/api/login	Public	User login
@@ -55,7 +53,7 @@ POST	/api/elections	Admin	Create election
 POST	/api/candidates	Admin	Add candidate
 ✅ More endpoints are available in Postman collection.
 
-🔧 Setup Instructions
+##🔧 Setup Instructions
 Clone the repository
 
 git clone https://github.com/yourusername/online-voting-system.git
@@ -74,7 +72,7 @@ npm start
 📬 API Testing
 Use Postman to test all endpoints. A complete Postman collection is available in the /postman folder.
 
-🧠 Learnings
+##🧠 Learnings
 Built stateless JWT authentication from scratch
 
 Applied strict access control with Express middleware
@@ -83,7 +81,7 @@ Ensured one-vote-per-user logic and MongoDB constraints
 
 Developed RESTful APIs with clear status codes and responses
 
-📌 Future Enhancements
+##📌 Future Enhancements
 Frontend integration with React or Vue
 
 Admin dashboard with real-time election analytics
