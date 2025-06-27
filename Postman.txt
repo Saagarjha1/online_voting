@@ -1,0 +1,19 @@
+🧑‍💻 1. Signup a New Voter
+Endpoint: POST /user/signup
+URL: http://localhost:3000/user/signup
+Body (JSON):
+
+json
+Copy code
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john@example.com",
+  "mobile": "9876543210",
+  "address": "123 Main Street",
+  "aadharCardNumber": "123456789012",
+  "password": "password123"
+}
+✅ Expected Response: 201 Created
+Returns: user info + JWT token
+
