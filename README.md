@@ -12,10 +12,11 @@ npm install
 Create .env file with:
 
 PORT=3000
-MONGODB_URI=your_mongo_uri
+MONGODB_URL=your_mongo_url
 JWT_SECRET=your_secret_key
 
-Start the servernpm start
+Start the server 
+npm start
 
 📌 API Endpoints
 
@@ -47,5 +48,5 @@ Admin: Can add candidates
 
 📩 Author
 
-Built by [Your Name]
+Built by Sagar Jha
 
